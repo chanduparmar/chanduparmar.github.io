@@ -464,14 +464,18 @@ body > footer .copyrights {
   width: 100%;
   padding: 0;
   z-index: 1;
+  height: auto;
 }
+
+
 
 .subpages {
   position: relative;
+  height: 2000px;
   width: 100%;
   margin: 0 auto;
   padding-top: 100px;
-  overflow: hidden;
+
   -webkit-perspective: 1500px;
   -moz-perspective: 1500px;
   perspective: 1500px;
@@ -658,7 +662,7 @@ body > footer .copyrights {
 
 .site-main {
   width: 100%;
-  height: auto;
+  height: 100%;
   position: relative;
 }
 
